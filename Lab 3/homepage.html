@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="styles_hompage.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Lab 3</title>
+</head>
+
+<body >
+  <div class="topnav" id="myTopnav">
+    <div class="container">
+      <a href="homepage.html" class="active">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Games
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="game1.html">Game 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+  </div>
+  <div class="content">
+    <div class="card">
+      <img src="images/game1.png" alt="Avatar" style="width:100%">
+      <div class="container">
+        <h4><b>Jump!</b></h4> 
+        <button type="button" onclick="play()" class="button button2">Play</button>
+      </div>
+    </div>
+</div>
+
+</body>
+<script src="homepage.js"></script>
+</html>

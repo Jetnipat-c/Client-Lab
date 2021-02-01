@@ -6,7 +6,7 @@ const handleClick = () => {
   if (username === "admin" && password === "123456") {
     //console.log("correct");
     alert("Correct");
-    location.href = "hompage.html";
+    location.href = "homepage.html";
   } else {
     //console.log("Incorrect");
     document.getElementById("alert").style.display = "flex";
