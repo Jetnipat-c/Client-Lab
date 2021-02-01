@@ -10,6 +10,10 @@
 </head>
 
 <body>
+    <div class="alert" id="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        This is an alert box.
+      </div>
     <div class="container">
         <div class="row">
             <div class="flex-item">
@@ -29,7 +33,7 @@
                 <div class="form-check">
                 </div>
 
-                <button type="button" class="btn btn-outline-light">Signin</button>
+                <button type="button" class="btn btn-outline-light" onclick="handleClick()">Signin</button>
             </form>
             <div class="flex-item">
 
@@ -39,5 +43,5 @@
 
     </div>
 </body>
-
+<script src="index.js"></script>
 </html>
