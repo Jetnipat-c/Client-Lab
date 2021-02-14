@@ -1,5 +1,3 @@
-import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import StyleWrapper from "../styles/components/index/styles";
 import { useState } from "react";
 const Todo = ({ avatar_url, login }) => {
@@ -69,6 +67,7 @@ const Todo = ({ avatar_url, login }) => {
 
   return (
     <StyleWrapper>
+      <a href="/homework">Homework page</a>
       <div>
         <h1>
           <img src={avatar_url} width="80" />
